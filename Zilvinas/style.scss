@@ -1,0 +1,280 @@
+.wrapper {
+  width: 100%;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 60px;
+  margin-left: 2em;
+}
+
+.logo img {
+  align-self: center;
+  float: left;
+  height: 36px;
+}
+
+.logo h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #111111;
+}
+
+nav a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #555555;
+  padding: 0 10px;
+  margin-right: 20px;
+}
+
+nav a:last-child {
+  color: #ff3998;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+#launch {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0 auto;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+/* img {
+    width: 40%;
+} */
+
+.image {
+  max-width: 50%;
+}
+
+#lauch,
+h6 {
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ff3998;
+}
+
+#lauch,
+.para {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  color: #111111;
+}
+
+#launch,
+p {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.btn {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #111111;
+  display: inline-block;
+  border: 4px solid #f656a3;
+  border-radius: 100px;
+  background-color: white;
+  padding: 15px;
+  text-decoration: none;
+  width: 20%;
+}
+
+#free {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 5em;
+  background-image: linear-gradient(
+    to right,
+    #ff3998,
+    #ff3939,
+    #ff8139,
+    #39ffa0
+  );
+  padding-top: 70px;
+  padding-left: 40px;
+  border-radius: 10px;
+}
+
+#free,
+h2 {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #111111;
+}
+
+#free,
+p {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #111111;
+}
+
+.container,
+h3 {
+  display: flex;
+  justify-content: space-between;
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 36px;
+  color: #999999;
+  padding-top: 60px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.super1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.super {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.supermain {
+  margin-left: 2em;
+}
+
+.sale {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 0.3em;
+  margin-right: 2em;
+}
+
+#footerupsell {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0 auto;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+.para1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 68px;
+  color: #111111;
+}
+
+.para2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #555555;
+}
+
+.btn1 {
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #111111;
+  display: inline-block;
+  border: 4px solid #f656a3;
+  border-radius: 100px;
+  background-color: white;
+  padding: 15px;
+  text-decoration: none;
+  width: 20%;
+}
+
+.image1 {
+  max-width: 50%;
+}
+
+footer div #contfooter {
+  padding: 2.5rem 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  div .footerRight {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    
+  }
+  div {
+    width: 15%;
+    margin: 0 1.5rem 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #555555;
+  line-height: 2rem;
+}
+
+.footerLeft {
+  display: flex;
+  align-items: space-evenly;
+  flex-direction: column;
+}
+
+div #footerbottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 3rem 3.5rem 3rem 3.5rem;
+  color: #555555;
+}
